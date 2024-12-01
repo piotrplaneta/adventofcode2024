@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "adventofcode2024"
+version = "0.1.0"
+description = ""
+authors = ["piotrplaneta <piotr.planeta@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
