@@ -64,8 +64,6 @@ for y in range(len(input)):
 
 print(xmas_count)
 
-x_mas_count = 0
-
 
 def is_x_mas_possible(x, y):
     possible_deltas = [[-1, -1], [1, -1], [-1, 1], [1, 1]]
@@ -96,6 +94,7 @@ def has_x_mas_at(x, y):
     return left_to_right and right_to_left
 
 
+x_mas_count = 0
 for y in range(len(input)):
     line = input[y]
 
